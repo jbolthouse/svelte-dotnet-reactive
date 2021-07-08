@@ -7,7 +7,7 @@ Frameworks like Firebase and Meteor do a lot to create reactivity to mutations i
 
 1. The technologies should be reactive through all layers.
 1. The code and implementation should be as functional as possible.
-1. <<Will come up with more>>
+1. --Will come up with more--
   
 ## Technologies
   
