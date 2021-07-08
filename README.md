@@ -14,7 +14,7 @@ Frameworks like Firebase and Meteor do a lot to create reactivity to mutations i
 * **.NET Core with SignalR entrypoint** - This will allow for bi-drectional RPC, facilitating high-level pub/sub and simplified fetches (No Rest).
 * **GraphQL** - All data and mutations will be handled through GraphQL against an abstracted DB provider in EF. Data subscriptions will happen through SignalR, but managed through .NET's interface to GraphQL.
 * **TypeScript Model Projection** - Yes, TS is not the best of functional JS languages, but it is headed there, and it has ubiquitous support. Model projection will create proxy types in the client side for clean data transport.
-* *ReactiveX ViewModels** - Create a ViewModel paradigm that implements Observables and manages data needed in views in the place of Stores. Views will implement and pass obeservables to descendant components.
+* **ReactiveX ViewModels** - Create a ViewModel paradigm that implements Observables and manages data needed in views in the place of Stores. Views will implement and pass obeservables to descendant components.
 * **Svelte UI** - Svelte is built from the ground up as a language-compiler to be reactive, clean, functional, and pretty simple. It should couple well with ReactiveX for full reactivity.
 
 ## Authentication and Authorization
