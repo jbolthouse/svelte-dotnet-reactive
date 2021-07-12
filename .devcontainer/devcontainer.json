@@ -1,0 +1,17 @@
+{
+    "name" : "remote-dev-container",
+    "dockerComposeFile" : ["./docker-compose.yml"],
+    "service" : "web-api",
+    "workspaceFolder" : "/app",
+    "extensions": [
+        "ms-dotnettools.csharp",
+        "josefpihrt-vscode.roslynator",
+        "formulahendry.dotnet-test-explorer",
+        "fernandoescolar.vscode-solution-explorer",
+		"eamodio.gitlens",
+		"ms-vscode.powershell",
+		"shd101wyy.markdown-preview-enhanced",
+        "streetsidesoftware.code-spell-checker"
+    ],
+    "shutdownAction": "stopCompose"
+}

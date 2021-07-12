@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+    dev-container:
+        build:
+            context: ../web-api
+        working_dir: /app
+        command: sleep infinity
+        volumes:
+            - "..:/app"
